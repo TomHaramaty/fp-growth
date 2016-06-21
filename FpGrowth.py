@@ -288,7 +288,7 @@ def main():
 	
 	path, min_freq=sys.argv[1],sys.argv[2]
 	
-	if not os.path.isfile(path) or not min_freq.isdigit():
+	if not os.path.isfile(path) or not min_freq.isdigit() or int(min_freq)<=1:
 		print 'Aborting, invalid input.'
 
 	fp_growth(path,int(min_freq))
