@@ -47,7 +47,7 @@ def save_results(path,results,min_freq):
 	if not os.path.isdir('results'):
 		os.mkdir('results')
 
-	pattern = re.compile(r'[^\/]*$')
+	pattern = re.compile(r'[^\/]+$')
 	m = re.search(pattern, path)
 	if m:
 		output_path = 'results/%s_%d_%s.json'%(m.group(0),min_freq,str(datetime.datetime.now().strftime("%Y_%m_%d_%H_%M_%S")))
