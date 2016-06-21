@@ -43,7 +43,7 @@ output:
   
 data_file - should contain a single transaction, a list of space separated integers.
 
-min_frequency - integer > 2.
+min_frequency - integer > 1.
 
 
 ## Output
