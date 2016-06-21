@@ -33,7 +33,7 @@ output:
   
 ## Installation
   
-  $ brew install python :)
+    $ brew install python :)
   
 ## Usage
     
