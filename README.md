@@ -37,7 +37,7 @@ output:
   
 ## Usage
 
-    $ python <FpGrowth.py> <data_file min_frequency>
+    $ python FpGrowth.py <FpGrowth.py> <data_file min_frequency>
   
   
 data_file - should contain a single transaction, a list of space separated integers.
