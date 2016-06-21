@@ -4,7 +4,7 @@ A command line executable python implementation for frequent item set mining.
 ## Code Example
 command:
 
-    python FpGrowth.py retail_25k.dat 4
+    $ python FpGrowth.py retail_25k.dat 4
     
 output:
 
@@ -36,14 +36,23 @@ output:
   $ brew install python :)
   
 ## Usage
-
+    
+    $ cd fp-growth
+    
     $ python FpGrowth.py <FpGrowth.py> <data_file min_frequency>
-  
   
 data_file - should contain a single transaction, a list of space separated integers.
 
 min_frequency - integer > 2.
 
+
+## Output
+
+    $ ls results/
+    
+    retail_25k.dat_100_2016_06_21_02_52_44.json
+    
+    retail_25k.dat_4_2016_06_21_02_29_48.json
 
 
 
