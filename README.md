@@ -31,10 +31,6 @@ output:
   python,2.7.X built in packages.
   
   
-## Installation
-  
-    $ brew install python :)
-  
 ## Usage
     
     $ cd fp-growth
